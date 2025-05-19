@@ -1,0 +1,15 @@
+[project]
+name = "gevent-monitor-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask==1.1.2",
+    "gevent==24.11.1",
+    "gunicorn==20.1.0",
+    "itsdangerous==1.1.0",
+    "jinja2==3.0.1",
+    "psutil>=7.0.0",
+    "werkzeug==2.0.2",
+]
